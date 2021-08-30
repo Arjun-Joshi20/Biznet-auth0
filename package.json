@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^1.5.0",
+    "@heroicons/react": "^1.0.4",
+    "auth0": "^2.36.1",
+    "axios": "^0.21.1",
+    "eslint-plugin-next": "0.0.0",
+    "firebase": "^8.10.0",
+    "framer-motion": "^4.1.17",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropdown": "^1.9.2",
+    "react-firebase-hooks": "^3.0.4",
+    "react-icons": "^4.2.0",
+    "react-particles-js": "^3.5.3",
+    "react-tilt": "^0.1.4",
+    "react-tsparticles": "^1.33.3",
+    "react-vanilla-tilt": "^1.0.0",
+    "tilt.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.32.0",
+    "eslint-config-acme": "^1.0.2",
+    "eslint-plugin-react": "^7.24.0",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
